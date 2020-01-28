@@ -1,0 +1,31 @@
+#hat1 a:hover {
+    color: orange
+}
+
+#hat1 a {
+    color: grey;
+}
+
+#hat2 a:hover {
+    color: orange;
+}
+
+#hat2 a {
+    color: grey;
+}
+
+#hat3 a:hover{
+    color: orange;
+}
+
+#hat3 a {
+    color: grey;
+}
+
+#min {
+    color: grey;
+}
+
+#pls {
+    color: green;
+}
