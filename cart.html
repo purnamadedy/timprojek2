@@ -8,6 +8,130 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-12">
+				<h2>Your Cart</h2>
+				<p class="text-secondary">Pastikan barang anda terbayar lunas</p>
+			</div>
+		</div>
+		<div class="Your">
+			<a href="#">home</a>
+				/ cart checkout
+				<h2>Your items</h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<table class="table table-borderless">
+				  <tbody>
+				    <tr>
+				      <th> <img src="download.jpg" height="100"> </th>
+				      <td><h4>Jeans Papp</h4><p class="text-secondary">IDR 280.000.100</p></td>
+				      <td>20</td>
+				      <td><button type="button" class="close" aria-label="Close">
+						  	<span aria-hidden="true">&times;</span>
+						  </button>
+					</td>
+				    </tr>
+				    <tr>
+				      <th> <img src="download.jpg" height="100"> </th>
+				      <td><h4>Jeans Papp</h4><p class="text-secondary">IDR 280.000.100</p></td>
+				      <td class="cart_quantity">
+				      	<div class="cart_quantity_button">
+				      		<a class="cart_quantity_up" href> + </a>
+				      		<input class="cart_quantity_input" type="text" name="quantity" value="20" autocomplete="off" size="2">
+				      		<a class="cart_quantity_down" href> - </a>
+				      	</div>
+				      </td>
+				      <td>
+				      	<button type="button" class="close" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+				      </td>
+				    </tr>
+				    <tr>
+				      <th> <img src="download.jpg" height="100"> </th>
+				      <td><h4>Jeans Papp</h4><p class="text-secondary">IDR 280.000.100</p></td>
+				      <td>20</td>
+				      <td>
+				      	<button type="button" class="close" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+				      </td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="col-sm-6">
+				<table class="table table-borderless table-secondary">
+				  <thead>
+				  </thead>
+				  <tbody>
+				  	<h5>Informasi Biaya</h5>
+				    <tr>
+				      <td>Jeans Papp<p>2 items</p></td>
+				      <td class="text-success">IDR 600.000.000 </td>
+				    </tr>
+				    <tr>
+				      <td>Jeans Papp</td>
+				      <td class="text-success">IDR 600.000.000</td>
+				    </tr>
+				    <tr>
+				    	<td>Courier<p>JNT Express</p></td>
+				    	<td class="text-success">IDR 201.000</td>
+				    </tr>
+				    <tr>
+				    	<td>Tax<p>Negara 20%</p></td>
+				    	<td class="text-success">IDR 1.799.000</td>
+				    </tr>
+				    <tr>
+				    	<td>Eid promo<p>10% OFF</p></td>
+				    	<td class="text-danger">-IDR 50.000.000</td>
+				    </tr>
+				    <tr>
+				    	<td>Total Harga</td>
+				    	<td class="text-primary">IDR 1.520.940.300</td>
+				    </tr>
+				  </tbody>
+				</table>
+				<button type="button" class="btn btn-warning" >cancel</button>
+				<button type="button" class="btn btn-warning ">checkout</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<form>
+				  <div class="form-group">
+				    <label for="alamat">address</label>
+				    <input type="text" class="form-control" id="alamat" aria-describedby="emailHelp">
+				  </div>
+				  <div class="form-group">
+				    <label for="alamat2">Address 2</label>
+				    <input type="text" class="form-control" id="alamat2">
+				  </div>
+				    <div class="form-group">
+				    	<label for="select">select city</label>
+					    <select class="custom-select" required>
+					      <option value="">Select city</option>
+					      <option value="jakarta">jakarta</option>
+					      <option value="bogor">bogor</option>
+					      <option value="bandung">bandung</option>
+					    </select>
+					</div>
+					<div class="form-group">
+				    	<label for="country">country</label>
+					    <select class="custom-select" required>
+					      <option value="">country</option>
+					      <option value="jakarta">indonesia</option>
+					      <option value="bogor">malaysia</option>
+					      <option value="bandung">singapore</option>
+					    </select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
 <script type="text/javascrip" src="js/jquery-3.4.1.slim.min.js"></script>
 <script type="text/javascrip" src="js/popper.min.js"></script>
 <script type="text/javascrip" src="js/bootstrap.min.js"></script>
